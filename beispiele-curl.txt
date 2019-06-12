@@ -1,0 +1,2 @@
+curl -X POST -H "Content-Type: application/json" -d '{"description": "Test post", "dueDate": "2019-01-01"}' http://localhost:7001/jaxrs-demo/api/todos
+curl -i http://localhost:7001/jaxrs-demo/api/todos/3

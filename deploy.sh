@@ -1,0 +1,1 @@
+mvn weblogic:undeploy; mvn clean install weblogic:deploy

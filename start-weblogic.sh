@@ -1,0 +1,1 @@
+docker run -d -p7001:7001 -e ADMIN_USERNAME=weblogic -e ADMIN_PASSWORD=Weblogic1 dmn1k/wls:12.2.1.2-dev

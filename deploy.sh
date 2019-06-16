@@ -1,1 +1,3 @@
-mvn weblogic:undeploy; mvn clean install weblogic:deploy
+#!/bin/bash
+
+mvn clean install weblogic:deploy

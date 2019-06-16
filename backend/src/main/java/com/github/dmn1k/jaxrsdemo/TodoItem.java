@@ -1,11 +1,8 @@
 package com.github.dmn1k.jaxrsdemo;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
 @Entity
 public class TodoItem implements Serializable {
@@ -13,6 +10,7 @@ public class TodoItem implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
+    @Lob
     private String description;
 
     private LocalDate dueDate;
